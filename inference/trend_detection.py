@@ -242,7 +242,7 @@ def run_trend_detection(
 #    return save_paths
 
 
-def main(**kwargs):
+def main(kwargs):
     result_save_path = kwargs["results_save_path"]
     inference_path = kwargs["inference_path"]
     config_file_path = kwargs["config_path"]
